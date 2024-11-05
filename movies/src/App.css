@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding:0;
+  /* overflow: hidden; */
+}
+body{
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+}
+#lg-ct{
+  color:yellow;
+}
+nav{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+  background-color: rgb(139, 140, 141);
+  height:10vh;
+  position:fixed;
+
+}
+.Navlist{
+  display:flex;
+  justify-content: space-between;
+  width:30%;
+  align-items: center;
+}
+.Navlist li{
+ list-style: none;
+}
+.Navlist li a{
+ text-decoration: none;
+ color:white;
+}
+#category_list{
+  border:2px solid red;
+  position:absolute;
+  display:none;
+  background-color: white;
+  color:black;
+  width:20%;
+  text-align: center;
+}
+#ct:hover #category_list{
+  display:block;
+}
+button{
+  background: linear-gradient(to right,blue,rgb(244, 68, 68));
+  background: blue;
+  height:30px;
+  margin:0px 5px;
+  width:150px;
+  color:white;
+  cursor:pointer;
+  border:none;
+  border-radius:25px;
+}
+.btn{
+  background: linear-gradient(to right,blue,rgb(244, 68, 68));
+}
+.btn2{
+  background-color: green;
+}
+
+
+.Moviescontainer{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  padding:0px 14px;
+  margin-top:5%;
+}
+#label{
+  float:right;
+  background: rgb(246, 89, 86);
+  border-radius:25px;
+  min-width: 30%;
+  text-align: center;
+}
+.MovieCard{
+ box-sizing: border-box;
+  border-radius:2%;
+  height:450px;
+  padding:0px 4px;
+  max-width: fit-content;
+  margin-bottom:4px;
+  display:block;
+  margin:auto;
+}
+.MovieCard:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#search{
+width:40%;
+display:block;
+margin:auto;
+border-radius: 25px;
+padding :0px 4px;
+/* border:none; */
+height:40px;
+margin-top:12px;
+/* background-color: rgb(208, 208, 208); */
+/* color:white; */
+}
+
+.footersec1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: rgb(139, 140, 141);
+  color:white;
+}
+footer div{
+  /* border:2px solid red; */
+}
+.last{
+  background-color: black;
+  color:white;
+}
+.ft-tt{
+  border-bottom: 2px solid red;
+}
